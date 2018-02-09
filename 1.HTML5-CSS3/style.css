@@ -1,0 +1,19 @@
+a:visited {
+  color: orange;
+}
+
+p {
+  color: white;
+  background-image: url(https://lavieauvietnam.com/wp-content/uploads/2017/06/plage-Truong-Long-Beach-ile-de-Phu-Quoc.jpg);
+  background-position: top;
+  font-size: 20px;
+}
+
+figure {
+  border: 5px groove blue;
+}
+
+img {
+  border-radius: 50%;
+  opacity: 1;
+}
