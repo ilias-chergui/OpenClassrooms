@@ -1,0 +1,44 @@
+body
+{
+	background-image: url("fond-page.jpg");
+}
+
+h2
+{
+	color: #880000;
+	text-decoration: underline;
+	text-align: center;
+}
+
+a
+{
+	float: right;
+	border: 3px #3355ff solid;
+	border-radius: 0px 10px 10px 10px;
+	box-shadow: -5px 5px 3px #88aaff ;
+}
+
+a:hover
+{
+	border: 3px #ff5533 dotted;
+	border-radius: 0px 10px 10px 10px;
+	box-shadow: -5px 5px 3px #ffaa88;
+}
+
+a:focus
+{
+	border: 3px #00ff00 solid;
+	border-radius: 0px 10px 10px 10px;
+	box-shadow: -5px 5px 3px #448844 ;
+}
+
+figure
+{
+	text-align: center;
+}
+
+ul
+{
+	background-color: rgba(127,0,0,0.7);
+	color: #ffff00;
+}

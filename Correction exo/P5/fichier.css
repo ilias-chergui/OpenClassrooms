@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('Fonts/Amble-Regular-webfont.eot');
+    src: url('Fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('Fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('Fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('Fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+	color: fuchsia;
+	text-align:center;
+}
+h2{
+	color: indigo;
+	text-align:center;
+	border: 2px ridge ;
+	box-shadow:6px 6px 6px red;
+	
+}
+
+ul {
+	text-align: center ;
+	color:yellow ;
+}
+p
+{
+	text-align:center ;
+	font-weight:bold;
+	font-size:2em;
+	color: green;
+}
+
+body
+{
+	background-image: url(https://images8.alphacoders.com/541/541231.png) ;
+	font-family:'ambleregular', Impact
+}
