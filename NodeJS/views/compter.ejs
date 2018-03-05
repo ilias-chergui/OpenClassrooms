@@ -1,0 +1,15 @@
+<h1>Je vais compter jusquà <%= compteur %></h1>
+
+<p>
+    <!-- boucle -->
+    <%
+    for( let i = 1; i <= compteur; i++) {
+    %>
+    <%= i %>...
+    <% } %>
+</p>
+
+<p>
+    En même temps, voici un nom au hasard:
+    <%= nom[Math.round(Math.random() * (nom.length - 1))] %>
+</p>
